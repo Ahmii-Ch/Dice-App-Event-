@@ -1,0 +1,39 @@
+video-contanier {
+  display: flex;
+  flex-direction: row;
+  padding: 5vw;
+  gap: 1vw;
+  color: var(--primaary-color);
+  overflow: hidden;
+}
+
+.video-card {
+  flex-shrink: 0;
+  width: 300px; 
+}
+
+.video-pick video {
+  width: 240px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.footer-content {
+  font-family: 'Syne', sans-serif;
+}
+
+.footer-content h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  letter-spacing: -1px;
+}
+
+.footer-content p {
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+
+
